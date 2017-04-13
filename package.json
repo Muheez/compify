@@ -4,7 +4,8 @@
   "description": "A Front-end javascript library for creating dynamic html elements on the fly",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --progress --colors --watch"
   },
   "repository": {
     "type": "git",
