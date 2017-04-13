@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/Muheez/compifly/issues"
   },
-  "homepage": "https://github.com/Muheez/compifly#readme"
+  "homepage": "https://github.com/Muheez/compifly#readme",
+  "dependencies": {
+    "webpack": "^2.3.3"
+  }
 }
