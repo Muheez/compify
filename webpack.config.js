@@ -4,7 +4,7 @@ module.exports = {
 		test: "./lib/test.js"
 	},
 	output: {
-		path: __dirname + ".",
+		path: __dirname + "/",
 		filename: "[name].js"
 	}
 }
