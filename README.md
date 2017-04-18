@@ -50,5 +50,5 @@ You can also check it out on [NPM](http://www.npmjs.com/compifly)
   
   The append() method appends the created element to the specified element in the argument **PS: this takes only one element**
   
-  #### How did you find the library, feel free to drop suggestions and complains. More features coming soon.
+  ### How did you find the library? feel free to drop suggestions and complains. More features coming soon.
   
