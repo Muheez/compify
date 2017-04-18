@@ -101,7 +101,6 @@ Component.prototype = {
 }
 
 exports.Component = Component;
-exports.componentProto = Component.prototype;
 
 /***/ }),
 /* 1 */
