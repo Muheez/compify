@@ -95,9 +95,8 @@ Component.prototype = {
 		for(var style in this.styles) {
 			this.styleString += style + ":" + this.styles[style] + ";";
 		}
-		for(var style in this.styles) {
-			this.element.style = this.styleString;
-		}
+		
+		this.element.style = this.styleString;
 	}
 }
 
