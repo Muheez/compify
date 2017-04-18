@@ -1,6 +1,6 @@
 {
   "name": "compifly",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Front-end javascript library for creating dynamic html elements on the fly",
   "main": "index.js",
   "scripts": {
