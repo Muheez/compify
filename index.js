@@ -79,7 +79,6 @@ function Component(obj) {
 
 	this.generate();
 	this.style();
-	console.log(this.type);
 }
 
 Component.prototype = {
@@ -88,8 +87,6 @@ Component.prototype = {
 		if(this.innerText) {
 			this.element.innerHTML = this.innerText;
 		}
-		console.log(this.element);
-		console.log(this.type);
 	},
 	append: function(parent) {
 		parent.appendChild(this.element);
@@ -99,10 +96,8 @@ Component.prototype = {
 			this.styleString += style + ":" + this.styles[style] + ";";
 		}
 		for(var style in this.styles) {
-			console.log(style)
 			this.element.style = this.styleString;
 		}
-		console.log(this.styles);
 	}
 }
 
