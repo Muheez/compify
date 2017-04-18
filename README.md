@@ -9,7 +9,7 @@ A Front-end library for creating dynamic html elements on the fly. Its makes it 
 You can also check it out on [NPM](http://www.npmjs.com/compifly)
 
 ## Usage
-### Require complify
+### Require compifly
 
 ```javascript
   var compifly = require("complify");
