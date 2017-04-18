@@ -2,7 +2,7 @@
   "name": "compifly",
   "version": "1.0.2",
   "description": "A Front-end javascript library for creating dynamic html elements on the fly",
-  "main": "index.js",
+  "main": "./lib/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --progress --colors --watch"
@@ -24,8 +24,5 @@
   "bugs": {
     "url": "https://github.com/Muheez/compifly/issues"
   },
-  "homepage": "https://github.com/Muheez/compifly#readme",
-  "dependencies": {
-    "webpack": "^2.3.3"
-  }
+  "homepage": "https://github.com/Muheez/compifly#readme"
 }
