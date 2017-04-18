@@ -1,5 +1,5 @@
 # compifly
-A Front-end library for creating dynamic html elements on the fly. Its makes it easy to create dynamics elements coupled with data(e.g, data coming from the database).
+A Front-end library for creating dynamic html elements on the fly. Its makes it easy to create dynamic elements coupled with data(e.g, data coming from the database).
 
 ## Installation
 #### Using npm
@@ -47,3 +47,8 @@ You can also check it out on [NPM](http://www.npmjs.com/compifly)
  ```javascript
   paragraph.append(document.body);
   ```
+  
+  The append() method appends the created element to the specified element in the argument **PS: this takes only one element**
+  
+  #### How did you find the library, feel free to drop suggestions and complains. More features coming soon.
+  
