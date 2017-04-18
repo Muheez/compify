@@ -36,4 +36,4 @@ You can also check it out on [NPM](http://www.npmjs.com/compifly)
  The Component constructor takes one argument which is an object. For now, the object only takes 3 properties:
  * type - this is the type of element you want to create
  * innerText - this is the innerHTML of the created element
- * style - this is an object that contains the styles to be applied to the created element. ** PS: the properties and property values      should all be in double quotes **
+ * style - this is an object that contains the styles to be applied to the created element. **PS: the properties and property values      should all be in double quotes**
