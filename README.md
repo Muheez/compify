@@ -1,21 +1,21 @@
-# compifly
+# compify
 A Front-end library for creating dynamic html elements on the fly. Its makes it easy to create dynamic elements coupled with data(e.g, data coming from the database).
 
 ## Installation
 #### Using npm
 ```commandline
-  npm install compifly --save
+  npm install compify --save
 ```
-You can also check it out on [NPM](http://www.npmjs.com/compifly)
+You can also check it out on [NPM](http://www.npmjs.com/compify)
 
 ## Usage
-### Require compifly
+### Require compify
 
 ```javascript
-  var compifly = require("complify");
+  var compify = require("compify");
   
   // extract component constructor
-  var Component = compifly.Component;
+  var Component = compify.Component;
 ```
 
 ### Instantiating a component (creating an element)
@@ -25,7 +25,7 @@ You can also check it out on [NPM](http://www.npmjs.com/compifly)
   
   var paragraph = new Component({
     type: "p",
-    innerText: "Hey Compifly",
+    innerText: "Hey Compify",
     style: {
       "background-color": "#bbb",
       "padding": "24px",
