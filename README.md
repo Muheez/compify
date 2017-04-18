@@ -16,5 +16,4 @@ You can also check it out on [NPM](http://www.npmjs.com/compifly)
   
   //extract component constructor
   var Constructor = complifly.Constructor;
-  
 ```
