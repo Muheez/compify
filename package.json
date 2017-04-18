@@ -1,5 +1,5 @@
 {
-  "name": "compifly",
+  "name": "compify",
   "version": "1.0.3",
   "description": "A Front-end javascript library for creating dynamic html elements on the fly",
   "main": "./lib/app.js",
