@@ -14,6 +14,22 @@ You can also check it out on [NPM](http://www.npmjs.com/compifly)
 ```javascript
   var complify = require("complify");
   
-  //extract component constructor
-  var Constructor = complifly.Constructor;
+  // extract component constructor
+  var Component = complifly.Component;
 ```
+
+###Instantiating a component (creating an element)
+
+```javascript
+  // creating a "p" tag
+  
+  var paragraph = new Component({
+    type: "p",
+    innerText: "Hey Compifly",
+    style: {
+      "background-color": "#bbb",
+      "padding": "24px",
+      "color": "white"
+    }
+  })
+ ```
