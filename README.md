@@ -12,13 +12,13 @@ You can also check it out on [NPM](http://www.npmjs.com/compifly)
 ### Require complify
 
 ```javascript
-  var complify = require("complify");
+  var compifly = require("complify");
   
   // extract component constructor
-  var Component = complifly.Component;
+  var Component = compifly.Component;
 ```
 
-###Instantiating a component (creating an element)
+### Instantiating a component (creating an element)
 
 ```javascript
   // creating a paragraph tag on the fly
@@ -34,6 +34,16 @@ You can also check it out on [NPM](http://www.npmjs.com/compifly)
   })
  ```
  The Component constructor takes one argument which is an object. For now, the object only takes 3 properties:
- * type - this is the type of element you want to create
- * innerText - this is the innerHTML of the created element
- * style - this is an object that contains the styles to be applied to the created element. **PS: the properties and property values      should all be in double quotes**
+ * **type** - this is the type of element you want to create
+ * **innerText** - this is the innerHTML of the created element
+ * **style** - this is an object that contains the styles to be applied to the created element. **PS: the properties and property values      should all be in double quotes**
+ 
+ ### Appending the created element to its parent
+ 
+ Now that we have instantiated the component, the component will be automatically generated; but the element wont be visible in the html  file until we append it to an existing element in the html.
+ 
+ ##### For example, we are going to append the created element to the body tag.
+ 
+ ```javascript
+  paragraph.append(document.body);
+  ```
