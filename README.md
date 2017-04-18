@@ -3,5 +3,5 @@ A Front-end library for creating dynamic html elements on the fly. Its makes it 
 
 ## Installation
 Using npm
-``commandline
+```commandline
   npm install compifly --save
